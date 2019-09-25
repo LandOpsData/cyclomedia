@@ -1,0 +1,45 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "MobileLidar_Brush_4728": {
+      "display": true
+    },
+    "MobileLidar_Tree_7825": {
+      "display": true
+    },
+    "MobileLidar_Pole_8500": {
+      "display": true
+    },
+    "MobileLidar_SpanStatus_4754": {
+      "display": true
+    },
+    "MobileLidar_Span_5627": {
+      "display": true
+    },
+    "MobileLidar_04footDetectionBuffer_2264": {
+      "display": true
+    },
+    "MobileLidar_VerticalDetectionBuffer_5797": {
+      "display": true
+    },
+    "MobileLidar_12footDetectionBuffer_8225": {
+      "display": true
+    },
+    "VectorTile_9007": {
+      "display": true
+    }
+  }
+}
