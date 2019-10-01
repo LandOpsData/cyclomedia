@@ -1,0 +1,1580 @@
+{
+  "layerInfos": [
+    {
+      "name": "Brush",
+      "id": "MobileLidar_Brush_4728",
+      "layer": {
+        "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/MobileLidar_Brush/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "FID_CM_BRUSH",
+            "alias": "FID_CM_Brush",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": false
+          },
+          {
+            "name": "ROUTEID",
+            "alias": "ROUTEID",
+            "show": false
+          },
+          {
+            "name": "ROUTENAME",
+            "alias": "ROUTENAME",
+            "show": false
+          },
+          {
+            "name": "LATITUDE",
+            "alias": "LATITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ALTITUDE",
+            "alias": "ALTITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "F_ID",
+            "alias": "F_ID",
+            "show": false
+          },
+          {
+            "name": "ST_NAME",
+            "alias": "ST_NAME",
+            "show": false
+          },
+          {
+            "name": "DRIVE_AREA",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "ACCURACY",
+            "alias": "ACCURACY",
+            "show": false
+          },
+          {
+            "name": "DLVRDATE",
+            "alias": "DLVRDATE",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "HFTD",
+            "alias": "High Fire Threat District",
+            "show": false
+          },
+          {
+            "name": "PGERGN",
+            "alias": "PGE Region",
+            "show": false
+          },
+          {
+            "name": "PGEDVSN",
+            "alias": "PGE Division",
+            "show": false
+          },
+          {
+            "name": "COUNTYNAME",
+            "alias": "County Name",
+            "show": false
+          },
+          {
+            "name": "CIRCUITID",
+            "alias": "Circuit ID",
+            "show": false
+          },
+          {
+            "name": "RECORDEDAT",
+            "alias": "RecordedAt",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "SPANID",
+            "alias": "SpanID",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Tree",
+      "id": "MobileLidar_Tree_7825",
+      "layer": {
+        "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/MobileLidar_Tree/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": false
+          },
+          {
+            "name": "ROUTEID",
+            "alias": "ROUTEID",
+            "show": false
+          },
+          {
+            "name": "ROUTENAME",
+            "alias": "ROUTENAME",
+            "show": false
+          },
+          {
+            "name": "ALTITUDE",
+            "alias": "ALTITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DIAMETER_FT",
+            "alias": "DIAMETER_FT",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ST_NAME",
+            "alias": "ST_NAME",
+            "show": true
+          },
+          {
+            "name": "LATITUDE",
+            "alias": "LATITUDE",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "F_ID",
+            "alias": "F_ID",
+            "show": false
+          },
+          {
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "HEIGHT_FT",
+            "alias": "HEIGHT_FT",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DRIVE_AREA",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "DIAMETER_IN",
+            "alias": "DIAMETER_IN",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ACCURACY",
+            "alias": "ACCURACY",
+            "show": false
+          },
+          {
+            "name": "DLVRDATE",
+            "alias": "DLVRDATE",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "HFTD",
+            "alias": "High Fire Threat District",
+            "show": false
+          },
+          {
+            "name": "PGERGN",
+            "alias": "PGE Region",
+            "show": false
+          },
+          {
+            "name": "PGEDVSN",
+            "alias": "PGE Division",
+            "show": false
+          },
+          {
+            "name": "COUNTYNAME",
+            "alias": "County Name",
+            "show": false
+          },
+          {
+            "name": "CIRCUITID",
+            "alias": "Circuit ID",
+            "show": false
+          },
+          {
+            "name": "RECORDEDAT",
+            "alias": "RecordedAt",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "SPANID",
+            "alias": "SpanID",
+            "show": false
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Pole Top",
+      "id": "Pole_Height_6220",
+      "layer": {
+        "url": "https://services3.arcgis.com/ImYoiBnIj5kSaAsi/arcgis/rest/services/Pole_Height/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": false
+          },
+          {
+            "name": "routeID",
+            "alias": "routeID",
+            "show": false
+          },
+          {
+            "name": "routeName",
+            "alias": "routeName",
+            "show": false
+          },
+          {
+            "name": "latitude",
+            "alias": "latitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "longitude",
+            "alias": "longitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "altitude",
+            "alias": "altitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Height_ft",
+            "alias": "Height_ft",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "F_ID",
+            "alias": "F_ID",
+            "show": false
+          },
+          {
+            "name": "ST_NAME",
+            "alias": "ST_NAME",
+            "show": true
+          },
+          {
+            "name": "Drive_Area",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "Accuracy",
+            "alias": "Accuracy",
+            "show": false
+          },
+          {
+            "name": "RecordedAt",
+            "alias": "RecordedAt",
+            "show": true
+          },
+          {
+            "name": "Coll_Event",
+            "alias": "Collection_Event",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Pole Bottom",
+      "id": "MobileLidar_Pole_8500",
+      "layer": {
+        "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/MobileLidar_Pole/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": false
+          },
+          {
+            "name": "ROUTEID",
+            "alias": "ROUTEID",
+            "show": false
+          },
+          {
+            "name": "ROUTENAME",
+            "alias": "ROUTENAME",
+            "show": false
+          },
+          {
+            "name": "LATITUDE",
+            "alias": "LATITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ALTITUDE",
+            "alias": "ALTITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OBSTRUCTI",
+            "alias": "OBSTRUCTI",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POLE_TYPE",
+            "alias": "POLE_TYPE",
+            "show": false
+          },
+          {
+            "name": "HEIGHT_FT",
+            "alias": "HEIGHT_FT",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "F_ID",
+            "alias": "F_ID",
+            "show": false
+          },
+          {
+            "name": "ST_NAME",
+            "alias": "ST_NAME",
+            "show": true
+          },
+          {
+            "name": "DRIVE_AREA",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "ACCURACY",
+            "alias": "ACCURACY",
+            "show": false
+          },
+          {
+            "name": "DLVRDATE",
+            "alias": "DLVRDATE",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "HFTD",
+            "alias": "High Fire Threat District",
+            "show": false
+          },
+          {
+            "name": "PGERGN",
+            "alias": "PGE Region",
+            "show": false
+          },
+          {
+            "name": "PGEDVSN",
+            "alias": "PGE Division",
+            "show": false
+          },
+          {
+            "name": "COUNTYNAME",
+            "alias": "County Name",
+            "show": false
+          },
+          {
+            "name": "CIRCUITID",
+            "alias": "Circuit ID",
+            "show": false
+          },
+          {
+            "name": "RECORDEDAT",
+            "alias": "RecordedAt",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "SPANID",
+            "alias": "SpanID",
+            "show": false
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Urgent Detection Point",
+      "id": "Hazard_Pt4ft_4075",
+      "layer": {
+        "url": "https://services3.arcgis.com/ImYoiBnIj5kSaAsi/arcgis/rest/services/Hazard_Pt4ft/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": false
+          },
+          {
+            "name": "routeID",
+            "alias": "routeID",
+            "show": false
+          },
+          {
+            "name": "routeName",
+            "alias": "routeName",
+            "show": false
+          },
+          {
+            "name": "latitude",
+            "alias": "latitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "longitude",
+            "alias": "longitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "altitude",
+            "alias": "altitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LineID",
+            "alias": "LineID",
+            "show": false
+          },
+          {
+            "name": "NearDistFT",
+            "alias": "Near_Dist_ft",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "F_ID",
+            "alias": "F_ID",
+            "show": false
+          },
+          {
+            "name": "ST_NAME",
+            "alias": "ST_NAME",
+            "show": true
+          },
+          {
+            "name": "Drive_Area",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "Accuracy",
+            "alias": "Accuracy",
+            "show": false
+          },
+          {
+            "name": "Line_Type",
+            "alias": "Line_Type",
+            "show": false
+          },
+          {
+            "name": "RecordedAt",
+            "alias": "RecordedAt",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Vertical Detection Point",
+      "id": "Hazard_Pt_Vertical_147",
+      "layer": {
+        "url": "https://services3.arcgis.com/ImYoiBnIj5kSaAsi/arcgis/rest/services/Hazard_Pt_Vertical/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": false
+          },
+          {
+            "name": "routeID",
+            "alias": "routeID",
+            "show": false
+          },
+          {
+            "name": "routeName",
+            "alias": "routeName",
+            "show": false
+          },
+          {
+            "name": "latitude",
+            "alias": "latitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "longitude",
+            "alias": "longitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "altitude",
+            "alias": "altitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LineID",
+            "alias": "LineID",
+            "show": false
+          },
+          {
+            "name": "NearDistFT",
+            "alias": "Near_Dist_ft",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "F_ID",
+            "alias": "F_ID",
+            "show": false
+          },
+          {
+            "name": "ST_NAME",
+            "alias": "ST_NAME",
+            "show": true
+          },
+          {
+            "name": "Drive_Area",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "Accuracy",
+            "alias": "Accuracy",
+            "show": false
+          },
+          {
+            "name": "Line_Type",
+            "alias": "Line_Type",
+            "show": false
+          },
+          {
+            "name": "RecordedAt",
+            "alias": "RecordedAt",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Radial Detection Point",
+      "id": "Hazard_Pt12ft_1461",
+      "layer": {
+        "url": "https://services3.arcgis.com/ImYoiBnIj5kSaAsi/arcgis/rest/services/Hazard_Pt12ft/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": false
+          },
+          {
+            "name": "routeID",
+            "alias": "routeID",
+            "show": false
+          },
+          {
+            "name": "routeName",
+            "alias": "routeName",
+            "show": false
+          },
+          {
+            "name": "latitude",
+            "alias": "latitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "longitude",
+            "alias": "longitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "altitude",
+            "alias": "altitude",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LineID",
+            "alias": "LineID",
+            "show": false
+          },
+          {
+            "name": "NearDistFT",
+            "alias": "Near_Dist_ft",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "F_ID",
+            "alias": "F_ID",
+            "show": false
+          },
+          {
+            "name": "ST_NAME",
+            "alias": "ST_NAME",
+            "show": true
+          },
+          {
+            "name": "Drive_Area",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "Accuracy",
+            "alias": "Accuracy",
+            "show": false
+          },
+          {
+            "name": "Line_Type",
+            "alias": "Line_Type",
+            "show": false
+          },
+          {
+            "name": "RecordedAt",
+            "alias": "RecordedAt",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Power_Line_",
+      "id": "Power_Line__2502",
+      "layer": {
+        "url": "https://services3.arcgis.com/ImYoiBnIj5kSaAsi/arcgis/rest/services/Power_Line_/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": false
+          },
+          {
+            "name": "routeID",
+            "alias": "routeID",
+            "show": false
+          },
+          {
+            "name": "routeName",
+            "alias": "routeName",
+            "show": false
+          },
+          {
+            "name": "Upper_PL",
+            "alias": "Upper_PL",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Length_ft",
+            "alias": "Length_ft",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "F_ID",
+            "alias": "F_ID",
+            "show": false
+          },
+          {
+            "name": "ST_NAME",
+            "alias": "ST_NAME",
+            "show": true
+          },
+          {
+            "name": "Drive_Area",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "Line_Type",
+            "alias": "Line_Type",
+            "show": false
+          },
+          {
+            "name": "Accuracy",
+            "alias": "Accuracy",
+            "show": false
+          },
+          {
+            "name": "RecordedAt",
+            "alias": "RecordedAt",
+            "show": true
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Span Status",
+      "id": "MobileLidar_SpanStatus_4754",
+      "layer": {
+        "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/MobileLidar_SpanStatus/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "ID",
+            "alias": "id",
+            "show": false
+          },
+          {
+            "name": "DETECTIONS4FT",
+            "alias": "Detections4Ft",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DETECTIONS12FT",
+            "alias": "Detections12Ft",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DETECTIONSVERTICAL",
+            "alias": "DetectionsVertical",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ROUTEID",
+            "alias": "routeID",
+            "show": false
+          },
+          {
+            "name": "ROUTENAME",
+            "alias": "routeName",
+            "show": false
+          },
+          {
+            "name": "LENGTH_FT",
+            "alias": "Length_ft",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DRIVE_AREA",
+            "alias": "Drive_Area",
+            "show": false
+          },
+          {
+            "name": "ACCURACY",
+            "alias": "Accuracy",
+            "show": true
+          },
+          {
+            "name": "LINE_TYPE",
+            "alias": "Line_Type",
+            "show": true
+          },
+          {
+            "name": "RECORDEDAT",
+            "alias": "RecordedAt",
+            "show": true
+          },
+          {
+            "name": "SPAN_ID",
+            "alias": "Span_ID",
+            "show": false
+          },
+          {
+            "name": "LENGTH",
+            "alias": "LENGTH",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DISTRICT",
+            "alias": "DISTRICT",
+            "show": true
+          },
+          {
+            "name": "DIVISION",
+            "alias": "DIVISION",
+            "show": true
+          },
+          {
+            "name": "REGION",
+            "alias": "REGION",
+            "show": true
+          },
+          {
+            "name": "CPUC_TIER",
+            "alias": "CPUC_TIER",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CNTY_NAME",
+            "alias": "FIRST_CNTY_NAME",
+            "show": false
+          },
+          {
+            "name": "CIRCUITID",
+            "alias": "CircuitID",
+            "show": true
+          },
+          {
+            "name": "SPAN_INSPECTOR",
+            "alias": "Span_Inspector",
+            "show": false
+          },
+          {
+            "name": "SPAN_INSPECTION_DATE",
+            "alias": "Span_Inspection_Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "SPAN_INSP_TYPE",
+            "alias": "Span_Insp_Type",
+            "show": false
+          },
+          {
+            "name": "SPANINSPECTIONSTATUS",
+            "alias": "SpanInspectionStatus",
+            "show": false
+          },
+          {
+            "name": "SPANDETECTIONSTATUS",
+            "alias": "SpanDetectionStatus",
+            "show": true
+          },
+          {
+            "name": "LENGTHMILES",
+            "alias": "LengthMiles",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DETECTIONLENGTH4FT",
+            "alias": "DetectionLength4Ft",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DETECTIONLENGTH12FT",
+            "alias": "DetectionLength12Ft",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DETECTION_LENGTHVERT",
+            "alias": "DetectionLengthVert",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PROCESSDATE",
+            "alias": "ProcessDate",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Span",
+      "id": "MobileLidar_Span_5627",
+      "layer": {
+        "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/MobileLidar_Span/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "ID",
+            "alias": "id",
+            "show": true
+          },
+          {
+            "name": "ROUTEID",
+            "alias": "routeID",
+            "show": true
+          },
+          {
+            "name": "ROUTENAME",
+            "alias": "routeName",
+            "show": true
+          },
+          {
+            "name": "LENGTH_FT",
+            "alias": "Length_ft",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DRIVE_AREA",
+            "alias": "Drive_Area",
+            "show": true
+          },
+          {
+            "name": "ACCURACY",
+            "alias": "Accuracy",
+            "show": true
+          },
+          {
+            "name": "LINE_TYPE",
+            "alias": "Line_Type",
+            "show": true
+          },
+          {
+            "name": "RECORDEDAT",
+            "alias": "RecordedAt",
+            "show": true
+          },
+          {
+            "name": "SPAN_ID",
+            "alias": "Span_ID",
+            "show": true
+          },
+          {
+            "name": "LENGTH",
+            "alias": "LENGTH",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DISTRICT",
+            "alias": "DISTRICT",
+            "show": true
+          },
+          {
+            "name": "DIVISION",
+            "alias": "DIVISION",
+            "show": true
+          },
+          {
+            "name": "REGION",
+            "alias": "REGION",
+            "show": true
+          },
+          {
+            "name": "CPUC_TIER",
+            "alias": "CPUC_TIER",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "CNTY_NAME",
+            "alias": "FIRST_CNTY_NAME",
+            "show": true
+          },
+          {
+            "name": "CIRCUITID",
+            "alias": "CircuitID",
+            "show": true
+          },
+          {
+            "name": "LENGTHMILES",
+            "alias": "LengthMiles",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PROCESSDATE",
+            "alias": "ProcessDate",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Urgent Detection Buffer",
+      "id": "MobileLidar_04footDetectionBuffer_2264",
+      "layer": {
+        "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/MobileLidar_04footDetectionBuffer/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "DETECT4FT",
+            "alias": "Detect4ft",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ASSOC2SPANID",
+            "alias": "Assoc2SpanId",
+            "show": false
+          },
+          {
+            "name": "DETECTIONAREASTATUS",
+            "alias": "DetectionAreaStatus",
+            "show": false
+          },
+          {
+            "name": "DETECTIONLENGTH",
+            "alias": "DetectionLength",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EDITOR",
+            "alias": "Editor",
+            "show": false
+          },
+          {
+            "name": "EDITORDATE",
+            "alias": "EditorDate",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Vertical Detection Buffer",
+      "id": "MobileLidar_VerticalDetectionBuffer_5797",
+      "layer": {
+        "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/MobileLidar_VerticalDetectionBuffer/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "DETECTVERTICAL",
+            "alias": "ViolationSize",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ASSOC2SPANID",
+            "alias": "Assoc2SpanId",
+            "show": false
+          },
+          {
+            "name": "DETECTIONAREASTATUS",
+            "alias": "DetectionAreaStatus",
+            "show": false
+          },
+          {
+            "name": "DETECTION_LENGTH",
+            "alias": "Detection_Length",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EDITOR",
+            "alias": "Editor",
+            "show": false
+          },
+          {
+            "name": "EDITORDATE",
+            "alias": "EditorDate",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Radial Detection Buffer",
+      "id": "MobileLidar_12footDetectionBuffer_8225",
+      "layer": {
+        "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/MobileLidar_12footDetectionBuffer/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "DETECT12FT",
+            "alias": "Detect12ft",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ASSOC2SPANID",
+            "alias": "Assoc2SpanId",
+            "show": false
+          },
+          {
+            "name": "DETECTIONAREASTATUS",
+            "alias": "DetectionAreaStatus",
+            "show": false
+          },
+          {
+            "name": "DETECTIONLENGTH_MI",
+            "alias": "DetectionLenght_Mi",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EDITOR",
+            "alias": "DetectionStatusEditor",
+            "show": false
+          },
+          {
+            "name": "EDITORDATE",
+            "alias": "EditorDate",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}
