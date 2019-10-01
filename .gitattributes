@@ -12,19 +12,21 @@
 *.properties -crlf
 *.txt -crlf
 *.xml -crlf
-
+*.sh -lf
+*.css -lf
+*.html -lf
+*.java -lf
+*.js -lf
+*.json -lf
+*.properties -lf
+*.txt -lf
+*.xml -lf
+git c
 #
 # The above will handle all files NOT found below
 #
 # These files are text and should be normalized (Not Convert crlf => lf)
-*.css           text eol=lf
-*.html          text eol=lf
-*.java          text eol=lf
-*.js            text eol=lf
-*.json          text eol=lf
-*.properties    text eol=lf
-*.txt           text eol=lf
-*.xml           text eol=lf
+
 
 # These files are binary and should be left untouched
 # (binary is macro for -text -diff)
